@@ -1,0 +1,112 @@
+.nav{
+  height: 80px;
+  background-color: black;
+}
+.link{
+  margin-left: 1600px;
+  display: flex;
+  
+  }
+ .li{
+  margin-top: 20px;
+ margin-right: 60px;
+ color: white;
+ text-decoration: none;
+ font-size: 30px;
+ }
+ .title{
+  font-size: 50px;
+  margin-left: 750px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  font-weight: bolder;
+ }
+ img{
+  height: 90px;
+  width: 90px;
+ }
+ .main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+}
+
+.product {
+  width: 300px; 
+  height: 300px;/* 33.33% width with some margin in between */
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+}
+
+.product img {
+  width: 200px;
+  height: 150px;
+}
+
+.product button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.cart{
+  border: 2px solid black;
+  width: 500px;
+  margin: 20px;
+  margin-left: 650px;
+  border-radius: 20px;
+  display: flex;
+  height: 200px;
+  background-color: transparent;
+}
+.cart img{
+  width: 200px;
+  height: 100px;
+  height: 100%;
+  margin-right: 20px;
+}
+.btn{
+  display: flex;
+  margin-left: 70px;
+}
+.btn button{
+  width: 40px;
+  height: 30px;
+  margin: 10px;
+}
+.cart p{
+  font-size: 20px;
+  font-weight: bolder;
+}
+input{
+  width: 40px;
+  height: 20px;
+  margin: 10px;
+  font-size: larger;
+  font-weight: bolder;
+}
+.total{
+  margin-left: 740px;
+  font-size: 20px;
+}
+.total button{
+  height: 50px;
+  width: 130px;
+  margin: 15px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
+.total button:hover{
+  cursor: pointer;
+}
+.total p{
+  margin-left: 75px;
+}
+h1{
+  margin-left: 750px;
+  font-size: 50px;
+}
